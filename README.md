@@ -1,0 +1,1 @@
+its a website project for a coffee-house showing cofee equipments, also with a menu highlighting the type of coffees and other products available as well as cities they are located in and a student review
