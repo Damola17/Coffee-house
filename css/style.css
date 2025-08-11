@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 62.5%;
+    width: 100%;
+    background-color: #fff;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+.container{
+    width: 100%;
+    /* padding-top: 2rem; */
+}
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: .5rem;
+    gap: 4rem;
+    position: relative;
+}
+.nav ul{
+    display: flex;
+}
+ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-size: 1rem;
+    /* margin-left: 3rem; */
+}
+.nav{
+    display: flex;
+}
+.nav-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+    padding-left: 9rem;
+}
+.About-services{
+    color:#747474;
+    gap: 3rem;
+}
+.coffee-contact{
+    /* margin-left: 1rem; */
+    margin-right: 1rem;
+}
+.Brand-name{
+    font-size: 1rem;
+    font-family: "Satisfy";
+    color:#747474;
+}
+.coffee-maker{
+    padding-right:4rem;
+}
+header{
+    position: relative;
+}
+.header-Coffeehouse{
+    display: flex;
+    justify-content: space-between;
+}
+.vector-coffee{
+    transform: translateY(-8rem);
+}
+.coffee-display{
+    display: flex;
+    justify-content:flex-end;
+   transform: translateY(-48rem);
+}
+.Trainings-contact{
+    display: flex;
+    /* gap: rem; */
+    position: absolute;
+    right: 24rem;
+    top:2.5rem;
+
+    z-index: 1;
+    color: #FFFDF8;
+}
+.contact-trainings{
+    gap: 3rem;
+    margin-right: -4rem;
+}
+.coffee-training{
+/* transform: translateX(1rem); */
+}
+.search-icon{
+   /* transform: translateX(2rem); */
+ transform: translateY(-.7rem);
+   /* padding-left: 1rem; */
+   /* position: absolute;
+   right: 7rem; */
+}
+.coffee-info{
+    font-family: "Poppins";
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    padding-right: 1rem;
+    gap: 2.5rem;
+    background-color:#4D3D2E ;
+    color:#FFFDF8 ;
+    width: 34.5%;
+    height: 5rem;
+    justify-content: flex-end;
+    z-index: 1;
+    transform: translateX(3rem);
+    transform: translateY(14.2rem);
+}
+.coffee-figures{
+font-family: "Poppins";
+font-weight: bold;
+display: flex;
+gap: .5rem;
+align-items: center;
+color:#FFFDF8 ;
+transform: translateX(-3rem);
+font-size: 1.2rem;
+}
+.coffee-details{
+font-size: .8rem;
+font-weight: 300;
+color: #FFFDF8;
+}
+.About-coffeehouse{
+font-family: "Poppins";
+display: flex;
+flex-direction: column;
+padding-left: 13rem;
+transform: translateY(-6rem);
+}
+h1{
+color:#6A3D2A ;
+font-size: 3rem;
+font-family: "Poppins";
+font-weight: bold;
+}
+.Coffee-description{
+    font-size: 1.1rem;
+    font-family: "Poppins";
+    padding-top: 1rem;
+    line-height: 2rem;
+    color: #747474;
+}
+button{
+    margin-top:2rem;
+    margin-bottom:2rem;
+   padding: .7rem 1.5rem;
+   border: 3px;
+   background-color: #6A3D2A;
+   color: #fff;
+   font-size: 1rem;
+   font-family: "Poppins";
+}
+.coffee-socials{
+display: flex;
+align-items: center;
+gap: .8rem;
+}
+Main{
+   margin-top: -39rem;
+}
+.Main-Services{
+    display: flex;
+    gap: 12rem;
+    align-items: center;
+    font-family: "Poppins";
+    /* justify-content:space-around ; */
+}
+
+.Main-service-intro{
+    padding-left: 13rem;
+    margin-top: -10rem;
+}
+h2{
+    font-size: 2.3rem;
+    padding-bottom: 1rem;
+    font-family: "Poppins";
+}
+.Main-service-info{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: #68737F;
+    font-family: "Poppins";
+}
+.white-btn{
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+}
+.Coffee-services{
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+    font-family: "Poppins";
+}
+.Coffee-bean-services{
+padding-bottom: 1rem;
+text-align: center;
+font-family: "Poppins";
+}
+.Coffee-training-services{
+    margin-top: -5rem;
+}
+.img-coffee-bag,
+.img-coffee-training,
+.img-coffee-biscuit,
+.img-coffee-maker{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+.Coffee-beans,
+.Bakery-Equipments,
+.Barista-coffee-Training,
+.Fresh-Bakery-Items{
+    padding-bottom: 1rem;
+    color: #050706;
+    font-size: 1rem;
+    text-align: center;
+    font-family: "Poppins";
+}
+.Coffee-P{
+text-align: center;
+font-size: 1rem;
+line-height: 1.5rem;
+color: #68737F;
+font-family: "Poppins";
+}
+.local-coffee{
+    padding-bottom: 2rem;
+}
+.local-training{
+   padding-bottom: 1rem;
+}
+.coffee-products{
+    padding-left: 1.5rem;
+}
+/* .roasted-coffee-bean{
+    position: absolute;
+} */
+/* .Roasted-coffee{
+    display: flex;
+} */
+.Location-services{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    text-align: center;
+    /* margin-top: -12rem;
+    transform: translateX(10rem); */
+}
+h3{
+    padding-top: 2rem;
+    padding-bottom: 1.2rem;
+    text-align: center;
+    font-size:2.25rem ;
+    font-family: "Poppins";
+}
+.Location-services p{
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: #68737F;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+.roasted-coffee-bean{
+    /* transform: translateY(-17rem);
+    transform: translateX(-8rem); */
+    /* width:750.03;
+    height: 425.98; */
+     /* position: fixed; */
+     /* top: -8rem;
+     left: 5rem; */
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 6rem;
+  padding-bottom: 3rem;
+  transition: transform .3s ease-in;
+  /* position: relative; */
+  transform: translateX(-1.5rem);
+  /* margin-left: -1rem; */
+  /* flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; */
+  /* grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  gap: 45px;
+  padding: 0 40px;
+  margin-top: 2rem; */
+}
+
+ .card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 14%;
+  height:270px;
+  overflow: hidden;
+  transition: transform .3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card img {
+  width: 250px;
+  border-radius: 20px;
+  object-fit: cover;
+  display: block;
+}
+
+.card p {
+  padding: 1.5rem;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  font-family: "Poppins";
+} 
+h4{
+    padding-top: 4rem;
+    padding-bottom: .5rem;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+.Menu-p{
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    font-family: "poppins";
+    font-weight: 400;
+    color: #68737F;
+}
+/* .location{
+    display: flex;
+    flex-direction: flex-end;
+} */
+location-div{
+    padding-bottom: 4rem;
+}
+.Location-link-div{
+display:flex;
+justify-content: flex-end;
+text-decoration: underline;
+font-size: 1.2rem;
+padding-right: 16rem;
+margin-top: -1rem;
+color:#000000;
+font-family: "poppins";
+font-weight: 300;
+}
+.location-link{
+    color:#000000; ;
+}
+.location-link:hover{
+    color: #6A3D2A;
+}
+.Coffee-types{
+    width:1259px;
+    height: 835px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     place-items: center;
+     margin-top: 3rem;
+     font-family: "Poppins";
+     padding-top: 2.5rem;
+     padding-bottom: 3rem;
+     background-color: #F6EDE0;
+     transform: translateX(-1rem);
+}
+.coffee-samples{
+    display: flex;
+    padding-bottom: 2.5rem;
+    font-family: "poppins";
+    line-height: 1.5rem;
+}
+.coffee-sample-display{
+ padding-left: 1rem;
+}
+.coffee-samples-p{
+    padding-top: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #050706;
+}
+.coffee-samples-price{
+    color: #68737F; 
+    font-size:.8rem;
+    font-weight: 400;
+}
+/* .p-b{
+    margin-bottom: 2rem;
+} */
+ .java-coffee-house{
+    margin-top: 4rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center; */
+    background-image: url("../images/Group\ 877.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* font-family: "Poppins"; */
+ }
+ .java-student-name{
+    font-size: 1.2rem;
+    color:#FFFDF8 ;
+    font-family: "PT serif";
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+ }
+ .java-coffee-stars{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+ }
+ .java-coffee-description{
+    font-size:1.5rem;
+   line-height: 2.5rem;
+   font-family: "Poppins";
+   font-weight:300;
+   color: #FFFDF8;
+   padding-top: 3rem;
+   padding-bottom: 2rem;
+ }
+.right-double-coma{
+    display: flex;
+    justify-content: flex-end;
+    transform: translateX(2rem);
+}
+.left-double-coma{
+    transform: translateX(-2rem);
+}
+footer{
+    padding-top: 3rem;
+}
+.footer-profile{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    padding-bottom: 5rem;
+    font-family: "Poppins";
+    font-weight: 300;
+    position: relative;
+}
+.contact-p{
+    font-family: "Poppins";
+    font-weight: 500;
+}
+.location-vector{
+    position: absolute;
+     bottom:14rem;
+     right: 24.1rem;
+}
+.Map-vector{
+ position: absolute;
+ background-color: #fff;
+ width: 30px;
+ height: auto;
+ bottom: 19.8rem;
+ right: 10rem;
+ padding: .5rem;
+ display: flex;
+ justify-content: center;
+ overflow: hidden;
+}
+.human-vector{
+    position: absolute;
+    background-color: #ffffff;
+    width: 40px;
+    height: auto;
+    bottom: 7rem;
+    right: 5rem;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+}
+.sign{
+    position: absolute;
+    background-color: #ffffff;
+    width: 35px;
+    height: 90px;
+    color: #747474;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    right: 10rem;
+    bottom: 6.5rem;
+}
+.plus{
+  font-size: 2rem;
+  transform: translateX(-.5rem);
+}
+.minus{
+ font-size: 2rem;
+  transform: translateX(-2rem);
+  transform: translateY(1rem);
+}
+.line{
+  position: absolute;
+  top: 1rem;
+  padding-right: -2rem;
+  font-size: smaller;
+ transform: translateX(-.5rem);
+  /* transform: translateX(-.3rem);
+  transform: translateY(-2rem);
+  padding-right: 1rem; */
+}
+/* .Vector-image{
+    transform: translate();
+} */
+.Map-background{
+    position: absolute;
+    bottom: 19.5rem;
+    transform: translateX(-1.2rem);
+    /* right: .1rem; */
+    margin-left: 2rem;
+    border: 1px;
+    background-color: #ffffff;
+    width: 80px;
+    height: auto;
+    border-radius: 2px ;
+    /* padding:0 rem ; */
+    /* color: #000; */
+}
+.Map-p{
+    text-align: center;
+}
+.Coffee-socials{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.Social-media-vectors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(1.1rem);
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
